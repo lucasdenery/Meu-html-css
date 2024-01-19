@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulario 1</title>
     <style>
         * {
             font-family: Arial, Helvetica, sans-serif;
@@ -13,16 +13,18 @@
 </head>
 
 <body>
-    <h1>Meu Primeiro Formulario</h1>
-    <form action="cadastro.php" method="post" autocomplete="off">
-        <p> <label for="inome">Nome:</label>
-            <input type="text" name="Nome" id="inome">
-        </p>
-        <p><label for="isobrenome">Sobrenome:</label>
-            <input type="text" name="Sobrenome" id="isobrenome">
-        </p>
-        <p><input type="submit" value="enviar"></p>
+    <h1>Meu primeiro formulario</h1>
+    <form action="cadastro.php" autocomplete="off">
 
+        <p><label for="inome">nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p><label for="isobre">sobrenome:</label>
+            <input type="text" name="sobre" id="isobre">
+        </p>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="apagar">
     </form>
 
 </body>
