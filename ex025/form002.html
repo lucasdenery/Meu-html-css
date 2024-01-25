@@ -14,19 +14,23 @@
 </head>
 
 <body>
-   <h1>Teste de Formulario</h1>
-   <form action="cadastro.php">
+   <h1>Teste de formulario</h1>
+   <form action="cadastro.php" method="post" autocomplete="off">
     <p>
-        Usuario:
+        <label for="iusi">Usuario:</label>
+        <input type="text" name="usi" id="iusi" required minlength="5" maxlength="15" size="13" placeholder="Coloque seu nome">
+        
+    </p>
+    <p>
+        <label for="isen">Senha:</label>
+        <input type="password" name="sen" id="isen" required minlength="8" size="8" placeholder="Digitar senha">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
     </p>
 
-    <p>
-        Senha:
-    </p>
    </form>
-
-   </form>
-
 </body>
 
-</html>
+</html> 
