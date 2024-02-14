@@ -2,21 +2,21 @@
 
 /* configurações gerais*/
 
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html,body{
+html,
+body {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(35, 62, 255
-    );
-    background-size:contain;
-    background-repeat:no-repeat ;
+    background-color: rgb(35, 62, 255);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-h1{
+h1 {
     color: white;
     text-shadow: 2px 2px 0px gray;
 }
