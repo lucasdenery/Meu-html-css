@@ -7,9 +7,16 @@
 }
 
 body, html{
-    background-color: lightskyblue;
+    background-color: rgba(107, 172, 212, 0.597);
+    background-image: url();
+    background-repeat: no-repeat;
+  background-size:cover ;
+
 
 }
+ body{
+   
+ }
 
 header{
     background-color: gray;
